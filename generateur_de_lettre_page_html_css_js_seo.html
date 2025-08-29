@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Générateur de lettre gratuit en ligne | Modèles personnalisables (motivation, réclamation, résiliation)</title>
+  <meta name="description" content="Générateur de lettre gratuit et simple : créez des lettres professionnelles en quelques clics (motivation, réclamation, résiliation, administratif). Conseils, exemples, FAQ et modèles prêts à l'emploi." />
+  <link rel="canonical" href="https://www.exemple.com/generateur-de-lettre" />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+  <meta name="keywords" content="générateur de lettre, lettre de motivation, modèle lettre, réclamation, résiliation, lettre administrative, écrire une lettre" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Générateur de lettre gratuit en ligne" />
+  <meta property="og:description" content="Créez une lettre professionnelle en quelques clics. Modèles, exemples et conseils complets." />
+  <meta property="og:url" content="https://www.exemple.com/generateur-de-lettre" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Preconnect hints (no external fonts to keep performance high) -->
+  <link rel="preconnect" href="https://www.exemple.com" crossorigin>
+
+  <style>
+    :root {
+      --bg: #0b1020;            /* deep blue-black for strong contrast */
+      --card: #121833;          /* slightly lighter for panels */
+      --muted: #9fb3ff;         /* calm accent color */
+      --text: #e8ecff;          /* near-white */
+      --accent: #6ea8fe;        /* buttons/links */
+      --accent-2: #6ef3a5;      /* secondary */
+      --ok: #48c78e;            /* success */
+      --warn: #ffcb6b;          /* warning */
+      --error: #ff6b6b;         /* error */
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius-xl: 1.25rem;
+      --radius-lg: .875rem;
+      --radius-md: .5rem;
+      --maxw: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text); background: radial-gradient(1200px 800px at 20% -10%, #1a2350 0%, #0b1020 55%);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      position: sticky; top: 0; z-index: 10; backdrop-filter: saturate(120%) blur(6px);
+      background: rgba(11,16,32,.75); border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    .nav {
+      max-width: var(--maxw); margin: 0 auto; display: flex; align-items: center; gap: 1rem; padding: .75rem 1rem;
+    }
+    .brand { font-weight: 800; letter-spacing: .2px; }
+    .brand span { color: var(--accent-2); }
+    .nav ul { margin: 0 0 0 auto; display: flex; gap: .75rem; list-style: none; padding: 0; }
+    .nav a { padding: .5rem .75rem; border-radius: var(--radius-md); }
+    .nav a:focus-visible { outline: 3px solid var(--accent-2); outline-offset: 2px; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1rem 5rem; }
+
+    .hero { display: grid; grid-template-columns: 1.2fr .8fr; gap: 1.5rem; align-items: center; }
+    .hero .panel {
+      background: linear-gradient(160deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      border: 1px solid rgba(255,255,255,.08); padding: 1.25rem; border-radius: var(--radius-xl); box-shadow: var(--shadow);
+    }
+    h1 { font-size: clamp(1.8rem, 3.2vw + .5rem, 3rem); line-height: 1.1; margin: .5rem 0 1rem; }
+    h2 { font-size: clamp(1.4rem, 2vw + .5rem, 2.1rem); margin: 2rem 0 1rem; }
+    h3 { font-size: clamp(1.1rem, 1.2vw + .5rem, 1.35rem); margin: 1.25rem 0 .75rem; }
+    p, li { font-size: 1rem; }
+
+    .grid { display: grid; gap: 1rem; }
+
+    .card {
+      background: var(--card); border: 1px solid rgba(255,255,255,.06); border-radius: var(--radius-lg); padding: 1rem; box-shadow: var(--shadow);
+    }
+
+    .toc { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .5rem; }
+    .toc a { display: block; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.06); padding: .625rem .75rem; border-radius: var(--radius-md); text-decoration: none; }
+
+    form label { display: block; font-weight: 600; margin: .5rem 0 .25rem; }
+    input[type="text"], input[type="date"], textarea, select {
+      width: 100%; padding: .75rem .85rem; border-radius: .625rem; border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06); color: var(--text);
+    }
+    textarea { min-height: 160px; resize: vertical; }
+
+    .actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem; }
+    button {
+      border: 0; padding: .7rem 1rem; border-radius: 999px; font-weight: 700; cursor: pointer;
+      background: linear-gradient(180deg, var(--accent), #3768ff); color: #fff; box-shadow: var(--shadow);
+    }
+    button.secondary { background: linear-gradient(180deg, #2f3a70, #1a2453); }
+    button.ghost { background: transparent; border: 1px solid rgba(255,255,255,.2); }
+    button:focus-visible { outline: 3px solid var(--accent-2); outline-offset: 2px; }
+
+    .result {
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border: 1px solid rgba(255,255,255,.08); border-radius: var(--radius-lg); padding: 1rem; white-space: pre-wrap;
+    }
+
+    .chips { display: flex; gap: .5rem; flex-wrap: wrap; }
+    .chip { font-size: .85rem; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.08); padding: .4rem .6rem; border-radius: 999px; }
+
+    details { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); border-radius: var(--radius-md); padding: .6rem .8rem; }
+    details + details { margin-top: .5rem; }
+    summary { cursor: pointer; font-weight: 700; }
+
+    .muted { color: #cdd6ff; opacity: .85; }
+    .small { font-size: .92rem; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+    .kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .75rem; }
+    .kpi .tile { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.08); padding: .75rem; border-radius: var(--radius-md); }
+
+    footer { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,.08); color: #cdd6ff; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Générateur de lettre",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://www.exemple.com/generateur-de-lettre",
+    "inLanguage": "fr-FR",
+    "isAccessibleForFree": true,
+    "offers": {"@type": "Offer", "price": 0, "priceCurrency": "EUR"},
+    "author": {"@type": "Organization", "name": "Votre Marque"},
+    "description": "Créez des lettres professionnelles (motivation, réclamation, résiliation, administratif) en quelques clics grâce à des modèles personnalisables et des conseils pratiques."
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.exemple.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Outils", "item": "https://www.exemple.com/outils"},
+      {"@type": "ListItem", "position": 3, "name": "Générateur de lettre", "item": "https://www.exemple.com/generateur-de-lettre"}
+    ]
+  }
+  </script>
+
+  <!-- FAQ schema (mirrors FAQ section below) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Ce générateur de lettre est-il vraiment gratuit ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui, l'outil est 100% gratuit. Vous pouvez générer, copier et télécharger vos lettres sans créer de compte."}},
+      {"@type": "Question", "name": "Puis-je utiliser ces modèles pour une candidature ?", "acceptedAnswer": {"@type": "Answer", "text": "Bien sûr. Choisissez \"Lettre de motivation\", renseignez vos informations et personnalisez l'introduction, le paragraphe de valeur et la conclusion."}},
+      {"@type": "Question", "name": "Le texte est-il unique pour le SEO ?", "acceptedAnswer": {"@type": "Answer", "text": "Chaque lettre est générée dynamiquement à partir de vos données. Nous fournissons aussi plusieurs variantes de ton pour limiter les duplications."}},
+      {"@type": "Question", "name": "Comment télécharger ma lettre ?", "acceptedAnswer": {"@type": "Answer", "text": "Après génération, cliquez sur \"Télécharger .txt\" ou copiez le texte pour l'utiliser dans votre traitement de texte favori."}},
+      {"@type": "Question", "name": "Puis-je modifier le contenu après génération ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. Le résultat est éditable directement dans la zone d'aperçu et vous pouvez ensuite copier ou télécharger le texte modifié."}}
+    ]
+  }
+  </script>
+
+  <noscript>
+    <style>.requires-js{display:none!important}</style>
+  </noscript>
+</head>
+<body>
+<header>
+  <nav class="nav" aria-label="Navigation principale">
+    <div class="brand" aria-label="Nom du site">✉️ <span>Lettra</span> – Générateur</div>
+    <ul>
+      <li><a href="#generateur">Générateur</a></li>
+      <li><a href="#modeles">Modèles</a></li>
+      <li><a href="#exemples">Exemples</a></li>
+      <li><a href="#guide">Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="intro">
+    <div class="panel">
+      <h1>Générateur de lettre gratuit : créez des lettres professionnelles en quelques clics</h1>
+      <p>
+        Vous avez besoin d'une lettre claire, structurée et crédible <strong>tout de suite</strong> ? Parfait. Ce générateur vous propose des modèles éprouvés (motivation, réclamation, résiliation, administratif, demande de remboursement, relance, recommandation, etc.),
+        avec des champs simples à remplir et des <em>tournures professionnelles</em>. Vous obtenez un texte prêt à l'envoi, que vous pouvez adapter phrase par phrase.
+      </p>
+      <p>
+        Côté référencement, la page est pensée pour être <strong>rapide</strong>, <strong>accessible</strong> et <strong>sémantiquement propre</strong> : balises Hn, métadonnées, contenu riche (&gt;1000 mots), données structurées (Schema.org), navigation interne, et
+        bonnes pratiques d'indexation. Personne ne peut <em>garantir</em> la première page Google, mais cette base technique et éditoriale <strong>maximise vos chances</strong>.
+      </p>
+      <div class="chips" aria-label="Avantages clés">
+        <span class="chip">✅ Gratuit</span>
+        <span class="chip">⚡ Rapide</span>
+        <span class="chip">🧩 Modèles variés</span>
+        <span class="chip">🛠️ Personnalisable</span>
+        <span class="chip">📄 Copie & Téléchargement</span>
+      </div>
+    </div>
+    <aside class="card small">
+      <h2 class="small">Sommaire rapide</h2>
+      <nav class="toc" aria-label="Sommaire">
+        <a href="#generateur">Générer ma lettre</a>
+        <a href="#modeles">Modèles disponibles</a>
+        <a href="#exemples">Exemples concrets</a>
+        <a href="#guide">Guide & conseils</a>
+        <a href="#faq">Questions fréquentes</a>
+      </nav>
+      <div class="kpi" aria-label="Indicateurs de qualité">
+        <div class="tile">⏱️ <strong>Moins de 1 min</strong><br><span class="muted">pour créer une lettre</span></div>
+        <div class="tile">📄 <strong>Éditable</strong><br><span class="muted">et copiable en 1 clic</span></div>
+        <div class="tile">🔎 <strong>SEO-ready</strong><br><span class="muted">balises, schémas, Hn</span></div>
+      </div>
+    </aside>
+  </section>
+
+  <section id="generateur" class="card" aria-labelledby="generateur-title">
+    <h2 id="generateur-title">Générer votre lettre</h2>
+    <p class="muted">Renseignez les champs essentiels puis cliquez sur <strong>Générer</strong>. Vous pourrez ensuite corriger, copier ou télécharger le texte.</p>
+
+    <form id="form" class="grid" aria-describedby="helper">
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: .75rem;">
+        <div>
+          <label for="type">Type de lettre</label>
+          <select id="type" name="type" required>
+            <option>Lettre de motivation</option>
+            <option>Réclamation</option>
+            <option>Demande de remboursement</option>
+            <option>Résiliation de contrat</option>
+            <option>Lettre administrative</option>
+            <option>Relance de paiement</option>
+            <option>Demande de stage</option>
+            <option>Lettre de recommandation</option>
+          </select>
+        </div>
+        <div>
+          <label for="ton">Ton</label>
+          <select id="ton" name="ton">
+            <option>Professionnel</option>
+            <option>Courtois</option>
+            <option>Ferme</option>
+            <option>Empathique</option>
+          </select>
+        </div>
+        <div>
+          <label for="civilite">Civilité</label>
+          <select id="civilite" name="civilite">
+            <option>Madame</option>
+            <option>Monsieur</option>
+          </select>
+        </div>
+        <div>
+          <label for="destinataire">Destinataire (entreprise / service)</label>
+          <input id="destinataire" name="destinataire" type="text" placeholder="Société Exemple – Service Client">
+        </div>
+        <div>
+          <label for="objet">Objet</label>
+          <input id="objet" name="objet" type="text" placeholder="Objet de la lettre">
+        </div>
+        <div>
+          <label for="reference">Référence (facultatif)</label>
+          <input id="reference" name="reference" type="text" placeholder="N° client, commande, contrat…">
+        </div>
+        <div>
+          <label for="ville">Ville</label>
+          <input id="ville" name="ville" type="text" placeholder="Paris">
+        </div>
+        <div>
+          <label for="date">Date</label>
+          <input id="date" name="date" type="date">
+        </div>
+        <div>
+          <label for="signature">Signature</label>
+          <input id="signature" name="signature" type="text" placeholder="Prénom Nom">
+        </div>
+      </div>
+
+      <label for="points">Points à mentionner (un par ligne)</label>
+      <textarea id="points" name="points" placeholder="Ex. : Poste visé : Assistant commercial\n3 ans d'expérience en relation client\nDisponible immédiatement"></textarea>
+
+      <div class="actions">
+        <button type="button" id="btn-generer">Générer</button>
+        <button type="button" class="secondary" id="btn-copier" disabled>Copier</button>
+        <button type="button" class="secondary" id="btn-telecharger" disabled>Télécharger .txt</button>
+        <button type="button" class="ghost" id="btn-reinit">Réinitialiser</button>
+      </div>
+      <p id="helper" class="muted small">Astuce : utilisez la zone « Points à mentionner » pour injecter vos faits marquants (résultats, dates, références de contrat, contextes précis). Cela personnalise fortement la lettre.</p>
+    </form>
+
+    <h3>Résultat</h3>
+    <article id="resultat" class="result" contenteditable="true" aria-live="polite" aria-label="Zone d'aperçu de la lettre (modifiable)"></article>
+    <p class="small muted">Mots : <span id="wordcount">0</span> — <span class="mono" id="readtime">0 min</span> de lecture estimée.</p>
+  </section>
+
+  <section id="modeles" class="card" aria-labelledby="modeles-title">
+    <h2 id="modeles-title">Modèles disponibles (H2)</h2>
+    <p>
+      Pour gagner du temps sans sacrifier la qualité, le générateur s'appuie sur des structures éprouvées. Chaque modèle intègre une <strong>introduction claire</strong>, un <strong>développement factuel</strong> et une <strong>conclusion orientée action</strong>. Vous pouvez choisir un ton <em>professionnel</em>, <em>courtois</em>, <em>ferme</em> ou <em>empathique</em> selon le contexte.
+    </p>
+    <ul>
+      <li><strong>Lettre de motivation</strong> : valorisez vos compétences, votre impact et votre motivation en lien direct avec l'offre.</li>
+      <li><strong>Réclamation</strong> : expliquez le problème, indiquez la référence et proposez une issue attendue avec un délai raisonnable.</li>
+      <li><strong>Demande de remboursement</strong> : contextualisez, justifiez et précisez le mode de remboursement souhaité.</li>
+      <li><strong>Résiliation de contrat</strong> : citez la référence, la clause ou le délai de préavis et proposez une date d'effet.</li>
+      <li><strong>Lettre administrative</strong> : exposez l'objet, les pièces jointes et l'attente précise (attestation, rectification, information…).</li>
+      <li><strong>Relance de paiement</strong> : factuelle, polie et ferme, avec rappel des conditions et d'une date butoir.</li>
+      <li><strong>Demande de stage</strong> : compétences visées, intérêt pour le secteur, disponibilités, objectifs d'apprentissage.</li>
+      <li><strong>Lettre de recommandation</strong> : rôle, période, réalisations observées, qualités et conclusion d'appui.</li>
+    </ul>
+    <p>
+      Ces modèles ne sont pas figés : ils servent de <strong>point de départ</strong>. Remplacez chaque donnée générique par des informations concrètes : chiffres, durées, noms de projets, résultats mesurables. Cette personnalisation renforce votre crédibilité et réduit les risques de duplication en ligne.
+    </p>
+  </section>
+
+  <section id="exemples" class="card" aria-labelledby="exemples-title">
+    <h2 id="exemples-title">Exemples concrets de lettres complètes (H2)</h2>
+
+    <h3>Exemple 1 : Lettre de motivation (H3)</h3>
+    <p>
+      Madame, Monsieur,<br>
+      Actuellement en poste d'assistant commercial, je souhaite rejoindre votre équipe pour contribuer à la croissance de votre portefeuille B2B. Votre approche centrée client et vos résultats récents m'encouragent à vous proposer une candidature prête à délivrer des effets mesurables dès les premières semaines.
+    </p>
+    <p>
+      Au cours des trois dernières années, j'ai géré un fichier de plus de 600 comptes actifs, avec un taux de satisfaction supérieur à 95 %. J'ai mis en place un suivi d'opportunités simple (tableau de priorisation + plan de relance) qui a permis d'augmenter de 22 % la transformation des devis en commandes en moins de six mois. Je suis à l'aise avec le recueil des besoins, la qualification précise et la gestion d'objections.
+    </p>
+    <p>
+      Votre environnement, qui associe exigence commerciale et qualité de service, correspond à ma façon de travailler : prioriser ce qui crée de la valeur, mesurer l'impact et ajuster rapidement. Je suis disponible sous 30 jours et mobile en Île-de-France.
+    </p>
+    <p>
+      Je serais ravi d'échanger pour détailler mes réalisations et comprendre vos priorités du trimestre à venir.
+      Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.<br>
+      <em>Prénom Nom</em>
+    </p>
+
+    <h3>Exemple 2 : Réclamation (H3)</h3>
+    <p>
+      Madame, Monsieur,<br>
+      Je vous contacte au sujet de la commande n°A12345 du 14/06/2025. Le produit reçu (référence XZ-90) présente un défaut d'allumage, confirmé par des tests réalisés le jour de la livraison. J'ai joint des photos et une courte vidéo pour faciliter l'analyse.
+    </p>
+    <p>
+      Conformément à vos conditions générales et à la garantie légale de conformité, je sollicite le remplacement du produit ou, à défaut, son remboursement intégral. Afin d'éviter toute dégradation de l'expérience, je vous propose un enlèvement à domicile sur le créneau de votre choix.
+    </p>
+    <p>
+      Merci de bien vouloir me confirmer la procédure à suivre ou de planifier l'enlèvement sous 7 jours ouvrés. Restant joignable par e‑mail et téléphone, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.<br>
+      <em>Prénom Nom</em>
+    </p>
+  </section>
+
+  <section id="guide" class="card" aria-labelledby="guide-title">
+    <h2 id="guide-title">Guide pratique : structure, style et impact (H2)</h2>
+    <h3>Structure recommandée (H3)</h3>
+    <ol>
+      <li><strong>En‑tête</strong> : coordonnées expéditeur/destinataire, date, objet clair.</li>
+      <li><strong>Introduction</strong> : contexte + intention (candidature, demande, résiliation…).</li>
+      <li><strong>Développement</strong> : faits, chiffres, références, pièces jointes.</li>
+      <li><strong>Conclusion</strong> : action attendue + délai + formule de politesse.</li>
+      <li><strong>Signature</strong> : nom, fonction, contacts.</li>
+    </ol>
+
+    <h3>Style efficace (H3)</h3>
+    <ul>
+      <li>Préférez des phrases courtes et actives ; évitez le jargon inutile.</li>
+      <li>Annoncez tôt l'objectif, puis détaillez précisément.</li>
+      <li>Montrez votre valeur avec des <strong>preuves</strong> (chiffres, dates, résultats).</li>
+      <li>Adaptez le <em>ton</em> à la situation : courtois pour une demande, ferme pour une réclamation.</li>
+      <li>Relisez avec un œil « lecteur pressé » : un sujet = un paragraphe.</li>
+    </ul>
+
+    <h3>Erreurs fréquentes à éviter (H3)</h3>
+    <ul>
+      <li>Objet flou (« Demande ») plutôt que précis (« Demande d'attestation de scolarité »).</li>
+      <li>Absence de référence (contrat, commande) alors que le dossier en contient.</li>
+      <li>Promesses non vérifiables au lieu d'éléments <em>contrôlables</em>.</li>
+      <li>Ton inadapté au contexte (trop familier, trop agressif).</li>
+      <li>Texte non relu : fautes, doublons, problèmes d'accord.</li>
+    </ul>
+
+    <h3>SEO : bonnes pratiques intégrées (H3)</h3>
+    <p>
+      Cette page applique les bases : titre et description uniques, hiérarchie H1→H3, contenu riche (&gt;1000 mots), données structurées (WebApplication, FAQ, Breadcrumb), maillage interne (sommaire), performances (CSS minimal, JS différé), accessibilité (labels, ARIA), et zone d'édition <em>sans friction</em>. Après mise en ligne, pensez à soumettre l'URL dans la Search Console, à obtenir quelques liens entrants de qualité et à garder la page à jour.
+    </p>
+  </section>
+
+  <section id="faq" class="card" aria-labelledby="faq-title">
+    <h2 id="faq-title">FAQ – Questions fréquentes (H2)</h2>
+
+    <details>
+      <summary>Ce générateur de lettre est-il vraiment gratuit ?</summary>
+      <p>Oui, l'outil est 100 % gratuit. Aucune création de compte requise. Utilisez-le autant que nécessaire.</p>
+    </details>
+    <details>
+      <summary>Puis-je utiliser ces modèles pour une candidature ?</summary>
+      <p>Bien sûr. Sélectionnez « Lettre de motivation », ajoutez vos résultats concrets (chiffres, projets) et adaptez la conclusion avec un appel à l'action.</p>
+    </details>
+    <details>
+      <summary>Le texte est-il unique pour le SEO ?</summary>
+      <p>La lettre est générée à partir de vos données et de votre ton choisi. Ajoutez des informations spécifiques pour renforcer l'unicité : noms, dates, références, réalisations.</p>
+    </details>
+    <details>
+      <summary>Comment télécharger ma lettre ?</summary>
+      <p>Après génération, cliquez sur « Télécharger .txt ». Vous pouvez aussi copier le texte et le coller dans Word, Google Docs ou LibreOffice.</p>
+    </details>
+    <details>
+      <summary>Puis-je modifier le contenu après génération ?</summary>
+      <p>Oui, l'aperçu est <em>éditable</em>. Modifiez directement, puis copiez/téléchargez votre version finale.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p class="small">🚀 <strong>Objectif</strong> : vous faire gagner du temps tout en gardant une communication <em>pro</em> et efficace. Besoin d'autres modèles ? Ajoutez-les et adaptez le texte.</p>
+    <p class="small muted">Mentions : ce générateur ne remplace pas un avis juridique. Pour des cas complexes, consultez un professionnel.</p>
+  </footer>
+</main>
+
+<script defer>
+(function(){
+  const $ = (sel) => document.querySelector(sel);
+  const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+
+  const els = {
+    type: $('#type'), ton: $('#ton'), civilite: $('#civilite'), destinataire: $('#destinataire'),
+    objet: $('#objet'), reference: $('#reference'), ville: $('#ville'), date: $('#date'), signature: $('#signature'), points: $('#points'),
+    resultat: $('#resultat'), word: $('#wordcount'), read: $('#readtime'),
+    gen: $('#btn-generer'), copy: $('#btn-copier'), dl: $('#btn-telecharger'), reset: $('#btn-reinit')
+  };
+
+  // Prefill date with today
+  if (!els.date.value) {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth()+1).padStart(2,'0');
+    const dd = String(today.getDate()).padStart(2,'0');
+    els.date.value = `${yyyy}-${mm}-${dd}`;
+  }
+
+  // Persist minimal state
+  const persistKeys = ['type','ton','civilite','destinataire','objet','reference','ville','date','signature','points'];
+  persistKeys.forEach(k => {
+    const el = els[k];
+    const stored = localStorage.getItem('letter.'+k);
+    if (stored && !el.value) el.value = stored;
+    el.addEventListener('input', () => localStorage.setItem('letter.'+k, el.value));
+  });
+
+  const TONALITES = {
+    'Professionnel': {
+      intro: "Dans le cadre de {OBJET}, je me permets de vous adresser la présente afin de préciser les éléments utiles et d'en faciliter le traitement.",
+      conclusion: "Je reste à votre disposition pour tout complément et vous remercie par avance de votre retour.",
+      formule: "Veuillez agréer, {CIV}, l'expression de mes salutations distinguées."
+    },
+    'Courtois': {
+      intro: "Je vous écris au sujet de {OBJET}. Soucieux d'une collaboration fluide, je vous partage ci-dessous les informations clés.",
+      conclusion: "Je vous remercie pour l'attention portée à ce courrier et reste joignable pour toute précision.",
+      formule: "Je vous prie d'agréer, {CIV}, mes salutations respectueuses."
+    },
+    'Ferme': {
+      intro: "Je vous contacte concernant {OBJET}. Vous trouverez ci-dessous les faits et références nécessaires à une résolution rapide.",
+      conclusion: "Sans réponse de votre part sous 10 jours ouvrés, je me verrai contraint d'engager les démarches appropriées.",
+      formule: "Veuillez recevoir, {CIV}, ma considération distinguée."
+    },
+    'Empathique': {
+      intro: "Je me permets de vous écrire au sujet de {OBJET}. Afin d'avancer sereinement, voici les éléments utiles à partager.",
+      conclusion: "Merci pour votre compréhension et votre aide. Je reste disponible pour échanger.",
+      formule: "Avec mes salutations les plus cordiales, {SIGN}."
+    }
+  };
+
+  const MODELES = {
+    'Lettre de motivation': (ctx) => {
+      return [
+        header(ctx),
+        `Objet : ${ctx.objet || 'Candidature au poste'}\n\n`,
+        salutation(ctx),
+        `${ctx.ton.intro.replace('{OBJET}', (ctx.objet||'ma candidature'))}\n\n`,
+        bullets(ctx),
+        `\nDans le cadre du poste, je peux apporter une contribution rapide grâce à mon expérience et à ma capacité à prioriser l'impact.`,
+        `\n\n${ctx.ton.conclusion}`,
+        `\n\n${ctx.ton.formule.replace('{CIV}', ctx.civilite)}\n${ctx.signature}`
+      ].join('');
+    },
+    'Réclamation': (ctx) => [
+      header(ctx),
+      `Objet : ${ctx.objet || 'Réclamation'}${ctx.reference? ' – Réf. '+ctx.reference: ''}\n\n`,
+      salutation(ctx),
+      `${ctx.ton.intro.replace('{OBJET}', (ctx.objet||'ma réclamation'))}\n\n`,
+      bullets(ctx),
+      `\nJe sollicite une solution adaptée (remplacement, réparation ou remboursement) et vous remercie de me confirmer la marche à suivre.`,
+      `\n\n${deadline(ctx)}`,
+      `\n\n${ctx.ton.formule.replace('{CIV}', ctx.civilite)}\n${ctx.signature}`
+    ].join(''),
+    'Demande de remboursement': (ctx) => [
+      header(ctx),
+      `Objet : ${ctx.objet || 'Demande de remboursement'}${ctx.reference? ' – Réf. '+ctx.reference: ''}\n\n`,
+      salutation(ctx),
+      `${ctx.ton.intro.replace('{OBJET}', (ctx.objet||'ma demande de remboursement'))}\n\n`,
+      bullets(ctx),
+      `\nMerci de procéder au remboursement sur le moyen de paiement d'origine ou de m'indiquer une alternative.`,
+      `\n\n${deadline(ctx)}`,
+      `\n\n${ctx.ton.formule.replace('{CIV}', ctx.civilite)}\n${ctx.signature}`
+    ].join(''),
+    'Résiliation de contrat': (ctx) => [
+      header(ctx),
+      `Objet : ${ctx.objet || 'Résiliation de contrat'}${ctx.reference? ' – Contrat '+ctx.reference: ''}\n\n`,
+      salutation(ctx),
+      `${ctx.ton.intro.replace('{OBJET}', (ctx.objet||'la résiliation de mon contrat'))}\n\n`,
+      bullets(ctx),
+      `\nConformément aux conditions applicables, je vous remercie de confirmer la date d'effet ainsi que la procédure de restitution éventuelle du matériel.`,
+      `\n\n${deadline(ctx)}`,
+      `\n\n${ctx.ton.formule.replace('{CIV}', ctx.civilite)}\n${ctx.signature}`
+    ].join(''),
+    'Lettre administrative': (ctx) => [
+      header(ctx),
+      `Objet : ${ctx.objet || 'Demande administrative'}${ctx.reference? ' – Réf. '+ctx.reference: ''}\n\n`,
+      salutation(ctx),
+      `${ctx.ton.intro.replace('{OBJET}', (ctx.objet||'ma demande'))}\n\n`,
+      bullets(ctx),
+      `\nMerci de bien vouloir m'indiquer la suite donnée et, le cas échéant, les pièces complémentaires à fournir.`,
+      `\n\n${ctx.ton.formule.replace('{CIV}', ctx.civilite)}\n${ctx.signature}`
+    ].join(''),
+    'Relance de paiement': (ctx) => [
+      header(ctx),
+      `Objet : ${ctx.objet || 'Relance de paiement'}${ctx.reference? ' – Facture '+ctx.reference: ''}\n\n`,
+      salutation(ctx),
+      `${ctx.ton.intro.replace('{OBJET}', (ctx.objet||'la relance de paiement'))}\n\n`,
+      bullets(ctx),
+      `\nSauf régularisation sous 7 jours, des pénalités pourront s'appliquer conformément à nos conditions.`,
+      `\n\n${ctx.ton.formule.replace('{CIV}', ctx.civilite)}\n${ctx.signature}`
+    ].join(''),
+    'Demande de stage': (ctx) => [
+      header(ctx),
+      `Objet : ${ctx.objet || 'Demande de stage'}\n\n`,
+      salutation(ctx),
+      `${ctx.ton.intro.replace('{OBJET}', (ctx.objet||'ma candidature de stage'))}\n\n`,
+      bullets(ctx),
+      `\nJe suis disponible aux dates indiquées et motivé à contribuer activement à vos projets.`,
+      `\n\n${ctx.ton.formule.replace('{CIV}', ctx.civilite)}\n${ctx.signature}`
+    ].join(''),
+    'Lettre de recommandation': (ctx) => [
+      header(ctx),
+      `Objet : ${ctx.objet || 'Lettre de recommandation'}\n\n`,
+      salutation(ctx),
+      `${ctx.ton.intro.replace('{OBJET}', (ctx.objet||'la recommandation'))}\n\n`,
+      bullets(ctx),
+      `\nJe recommande vivement la candidature mentionnée pour ses qualités professionnelles et humaines.`,
+      `\n\n${ctx.ton.formule.replace('{CIV}', ctx.civilite)}\n${ctx.signature}`
+    ].join('')
+  };
+
+  function header(ctx){
+    const date = ctx.date || new Date().toLocaleDateString('fr-FR');
+    const ville = ctx.ville || 'Ville';
+    let dest = ctx.destinataire || 'Destinataire';
+    return `${ville}, le ${date}\n${dest}\n\n`;
+  }
+  function salutation(ctx){
+    return `${ctx.civilite},\n`;
+  }
+  function bullets(ctx){
+    const list = (ctx.points||'').split(/\n+/).map(s=>s.trim()).filter(Boolean);
+    if(!list.length){ return `—`; }
+    return list.map(li => `• ${li}`).join('\n');
+  }
+  function deadline(ctx){
+    return `Merci de votre retour sous 10 jours ouvrés afin de clôturer le dossier dans de bonnes conditions.`;
+  }
+
+  function buildContext(){
+    const ton = TONALITES[els.ton.value] || TONALITES['Professionnel'];
+    return {
+      type: els.type.value,
+      ton,
+      civilite: els.civilite.value,
+      destinataire: els.destinataire.value.trim(),
+      objet: els.objet.value.trim(),
+      reference: els.reference.value.trim(),
+      ville: els.ville.value.trim(),
+      date: els.date.value,
+      signature: els.signature.value.trim() || 'Prénom Nom',
+      points: els.points.value
+    };
+  }
+
+  function generate(){
+    const ctx = buildContext();
+    const fn = MODELES[ctx.type];
+    const txt = fn ? fn(ctx) : '';
+    els.resultat.textContent = txt;
+    updateStats();
+    els.copy.disabled = !txt.length;
+    els.dl.disabled = !txt.length;
+  }
+
+  function updateStats(){
+    const text = els.resultat.textContent || '';
+    const wordCount = (text.match(/\b\w+\b/g) || []).length;
+    els.word.textContent = wordCount.toString();
+    const minutes = Math.max(1, Math.round(wordCount / 200));
+    els.read.textContent = `${minutes} min`;
+  }
+
+  els.gen.addEventListener('click', generate);
+  els.copy.addEventListener('click', async ()=>{
+    try{
+      await navigator.clipboard.writeText(els.resultat.textContent || '');
+      toast('Copié dans le presse-papiers !', 'ok');
+    }catch(e){ toast("Impossible de copier", 'error'); }
+  });
+  els.dl.addEventListener('click', ()=>{
+    const blob = new Blob([els.resultat.textContent||''], {type: 'text/plain;charset=utf-8'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'lettre.txt';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+  els.reset.addEventListener('click', ()=>{
+    $$('#form input, #form textarea').forEach(el=> el.value = '');
+    els.resultat.textContent='';
+    updateStats();
+    els.copy.disabled = true; els.dl.disabled = true;
+  });
+  els.resultat.addEventListener('input', updateStats);
+
+  // small toast
+  let toastTimer;
+  function toast(msg, type='ok'){
+    clearTimeout(toastTimer);
+    let t = document.getElementById('toast');
+    if(!t){
+      t = document.createElement('div');
+      t.id = 'toast';
+      t.style.position='fixed'; t.style.bottom='16px'; t.style.right='16px';
+      t.style.padding='10px 14px'; t.style.borderRadius='12px';
+      t.style.background='rgba(0,0,0,.7)'; t.style.color='#fff';
+      t.style.boxShadow='var(--shadow)'; t.style.zIndex=99; t.style.backdropFilter='blur(6px)';
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.style.background = type==='ok' ? 'linear-gradient(180deg, #48c78e, #279766)' : (type==='error' ? 'linear-gradient(180deg, #ff6b6b, #d24a4a)' : 'linear-gradient(180deg, #6ea8fe, #3768ff)');
+    t.style.opacity = '1';
+    toastTimer = setTimeout(()=>{ t.style.opacity='0'; }, 2200);
+  }
+})();
+</script>
+</body>
+</html>
